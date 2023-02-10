@@ -1,0 +1,43 @@
+.input{
+  padding:0.825rem;
+  outline:none;
+  margin-bottom: 10rem;
+  margin-top:3rem;
+  background-color: transparent;
+  
+}
+.input::placeholder{
+  color:black
+}
+.flex{
+  display: flex;
+  gap:5rem;
+  margin-top:5rem;
+}
+.flex div{
+  flex-grow: 1;
+}
+button{
+  padding-inline:0.5rem;
+  padding-block: 0.75rem;
+  background-color: green;
+  outline: none;
+  border:none;
+}
+.App{
+  text-align: center;
+  background-image: url("/public/images-1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+.text{
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.values{
+  background-color: aliceblue;
+  margin:1rem;
+  padding:1rem;
+  border-radius: 0.5rem;
+}
